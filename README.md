@@ -1,5 +1,6 @@
 # AdventOfCode2024
 
+adventofcode.com
 
 ## Day 1
 
