@@ -69,10 +69,8 @@ public class Day2ValidationMethods {
         for (int index = 0; index < oneLine.size() - 1; index++) {
             if (oneLine.get(index) >= oneLine.get(index + 1)) {
                 return false;
-            }
-            //else nedělej nic a jdi na další dvojici čísel
-        }
-        //když takto projdeš všechny dvojice a dostaneš se až sem, tak vrať true
+            }           
+        }        
         return true;
     }
 
