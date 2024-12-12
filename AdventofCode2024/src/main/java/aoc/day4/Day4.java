@@ -11,10 +11,6 @@ public class Day4 {
             char[][] lettersArray = linesStream
                     .map(String::toCharArray)
                     .toArray(char[][]::new);
-
-//            for (char[] row : lettersArray) {
-//                System.out.println(row);}
-
             return lettersArray;
 
         } catch (IOException e) {
